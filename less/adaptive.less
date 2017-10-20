@@ -1,0 +1,196 @@
+@media (max-width: 1200px) {
+  .site-header {
+
+    nav {
+      .site-nav {
+        li {
+          a {
+            margin-left: 10px;
+
+
+          }
+        }
+      }
+    }
+  }
+  .site-content {
+    .contact {
+
+    }
+  }
+}
+@media (max-width: 992px) {
+
+  .site-header {
+    .scroll-msg-container {
+      display: none;
+    }
+    nav {
+      height: 60px;
+      border-radius: 0;
+
+      .menu {
+        display: flex;
+        align-items: center;
+      }
+      .site-nav {
+        top: 0;
+        right: -100vw;
+        padding: 0;
+        position: fixed;
+        display: block;
+        background-color: white;
+        box-shadow: 0px 10px 18px 0px rgba(0, 4, 7, 0.35);
+
+        li {
+
+          a {
+            border-bottom: 1px solid #DCDCDC;
+            padding: 0 10vw;
+            margin-left: 0;
+            height: 16.6666666667vh;
+            font-size: 20px;
+
+
+            div {
+              display: none;
+            }
+            &:hover {
+
+
+              div {
+                display: none;
+              }
+            }
+          }
+        }
+        .close {
+          display: block;
+
+        }
+      }
+      .phones {
+        display: none;
+      }
+      .menu-bar {
+        display: flex;
+      }
+    }
+  }
+
+  .site-content {
+    padding-bottom: 30px;
+
+    .products {
+      height: auto;
+      .row > div {
+        margin-top: 30px;
+
+      }
+    }
+    .advantages {
+      .advantage {
+        margin-top: 15px;
+      }
+    }
+    .partner-advertising {
+      .hidden {
+        display: none;
+      }
+    }
+    .contact {
+
+    }
+  }
+}
+@media (max-width: 768px) {
+  .site-content {
+    .advantages {
+      padding-top: 45px;
+      .name {
+      }
+      .advantage {
+        margin-top: 15px;
+      }
+    }
+    .partner-advertising {
+
+      .form {
+        margin-top: 15px;
+      }
+    }
+    .partners {
+
+      ul {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        li {
+          margin: 15px;
+        }
+      }
+    }
+    .contact {
+      .phone-container {
+        width: 100%;
+
+      }
+      .contact-form {
+        input[type="text"] , input[type="submit"] {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .site-header {
+
+    nav {
+
+      .menu {
+
+      }
+      .site-nav {
+        width: 50vw;
+
+        li {
+          a {
+            font-size: 14px;
+            padding: 0 15px;
+          }
+        }
+      }
+    }
+  }
+  .site-content {
+    .advantages {
+      height: auto;
+
+    }
+    .name {
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+  .site-footer {
+    .wrapper {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 200px;
+    }
+    ul {
+
+      a {
+        margin: 0 7.5px;
+      }
+    }
+  }
+}
